@@ -1,0 +1,9 @@
+.button {
+  padding: 1em 2em;
+  color: #fff;
+  background: #f6cb11;
+  border: none;
+  border-radius: 3px;
+  font-family: var(--montserrat-font);
+  font-weight: 700;
+}
