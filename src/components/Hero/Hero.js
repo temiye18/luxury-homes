@@ -18,10 +18,6 @@ const Hero = () => {
           <img src={videoImage} alt="video" />
           <img className={classes.play_video} src={playVideo} alt="play_png" />
         </div>
-        <div className={classes.hero_image}>
-          <img src={videoImage} alt="video" />
-          <img className={classes.play_video} src={playVideo} alt="play_png" />
-        </div>
       </Container>
     </section>
   );
