@@ -1,8 +1,8 @@
 import React from "react";
 import { Container } from "../UI/Container";
 import classes from "./Hero.module.css";
-import videoImage from "../../assets/video_img.png";
-import playVideo from "../../assets/play_video.png";
+import videoImage from "../../assets/video.png";
+// import playVideo from "../../assets/play_video.png";
 import waveVector from "../../assets/Vector 5.png";
 import waveVector2 from "../../assets/Vector 6.png";
 
@@ -18,6 +18,9 @@ const Hero = () => {
             </span>
             It's an Investment in your Future.
           </h2>
+          <p className={classes.hero_text}>
+            The future is here. And we're excited to be a part of it.
+          </p>
           <img className={classes.hero_vector1} src={waveVector} alt="vector" />
           <img
             className={classes.hero_vector2}
@@ -25,12 +28,10 @@ const Hero = () => {
             alt="vector"
           />
         </div>
-        <p className={classes.hero_text}>
-          The future is here. And we're excited to be a part of it.
-        </p>
+
         <div className={classes.hero_image}>
           <img src={videoImage} alt="video" />
-          <img className={classes.play_video} src={playVideo} alt="play_png" />
+          {/* <img className={classes.play_video} src={playVideo} alt="play_png" /> */}
         </div>
 
         <div className={classes.hero_description}>
