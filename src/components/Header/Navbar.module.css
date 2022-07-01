@@ -18,6 +18,12 @@
 
   margin-left: auto;
 }
+@media (max-width: 901px) {
+  .navbar ul,
+  .contact__button {
+    display: none;
+  }
+}
 
 .navbar ul li {
   margin-right: 1rem;
@@ -35,4 +41,15 @@
 
 .navbar li:last-child a {
   margin-right: 4rem;
+}
+
+.navbar .menu {
+  font-size: 3rem;
+  color: var(--yellow-color);
+}
+
+@media (min-width: 901px) {
+  .navbar .menu {
+    display: none;
+  }
 }
