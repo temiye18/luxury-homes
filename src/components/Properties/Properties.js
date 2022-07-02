@@ -3,7 +3,7 @@ import Container from "../UI/Container";
 import "animate.css";
 import classes from "./Properties.module.css";
 import vector2 from "../../assets/Vector 2.png";
-import { estate, blog } from "../../data";
+import { estate } from "../../data";
 
 const Properties = () => {
   //   const [myEstate, setMyEstate] = useState(estate);
