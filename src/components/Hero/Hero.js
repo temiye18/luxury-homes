@@ -6,7 +6,7 @@ import vectorLogo from "../../assets/Underline.png";
 
 const Hero = () => {
   return (
-    <section>
+    <section className={classes.hero__back}>
       <Container>
         <div className={classes.welcome__text}>
           <h2>It's not just Real Estate. It's an Investment in your Future.</h2>

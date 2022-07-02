@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Navbar from "./components/Header/Navbar";
 import Hero from "./components/Hero/Hero";
+import Introduction from "./components/Intro/Introduction";
 import Properties from "./components/Properties/Properties";
 import Sidebar from "./components/Sidebar/Sidebar";
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <Sidebar closeSideBar={closeSideBar} isBarOpen={isBarOpen} />
       <Hero />
       <Properties />
+      <Introduction />
     </>
   );
 }

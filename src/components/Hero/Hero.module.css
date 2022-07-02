@@ -1,9 +1,12 @@
+.hero__back {
+  background-color: #fbfbfb;
+}
+
 .welcome__text {
   padding-top: 5rem;
   padding-bottom: 5rem;
   position: relative;
 }
-
 .welcome__text h2,
 .welcome__text p {
   display: flex;

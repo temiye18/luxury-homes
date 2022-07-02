@@ -1,0 +1,44 @@
+.intro {
+  padding: 10rem 0;
+}
+
+.intro__container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+
+  justify-content: start;
+  place-items: center;
+  gap: 4rem;
+}
+
+.intro__item {
+  align-self: center;
+  justify-self: start;
+}
+
+p.intro__title {
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.intro__item h2 {
+  font-size: 2.4rem;
+  margin-top: -20px;
+  color: var(--yellow-color);
+  font-weight: 600;
+}
+
+p.intro__body {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 35px;
+  margin-top: -20px;
+}
+
+.intro__button {
+  margin-top: 2rem;
+  border-radius: 5px;
+  font-size: 19px;
+  font-weight: 600;
+  padding: 16px 3rem;
+}

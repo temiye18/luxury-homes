@@ -1,3 +1,7 @@
+.property__heading {
+  padding-top: 3.5rem;
+}
+
 .property__heading > h2 {
   max-width: 400px;
   margin-bottom: 0;
@@ -42,7 +46,7 @@
 .estate {
   display: grid;
   margin-top: 2rem;
-  grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+  grid-template-columns: repeat(auto-fit, minmax(350px, auto));
   gap: 3rem;
   justify-content: center;
   animation-duration: 3s;
@@ -64,9 +68,16 @@
   color: #fff;
   padding: 8px 0;
   position: absolute;
-  bottom: 80%;
+  bottom: 78%;
   left: 60%;
 }
+@media (max-width: 450px) {
+  .estate__price {
+    bottom: 77%;
+    left: 58%;
+  }
+}
+
 .estate__item img {
   width: 100%;
 }
@@ -92,4 +103,5 @@
 
 .estate__deposit {
   margin-top: -5px;
+  color: #848484;
 }
