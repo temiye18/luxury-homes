@@ -1,0 +1,5 @@
+.property__heading > h2 {
+  max-width: 400px;
+  margin-bottom: 0;
+  font-size: 2rem;
+}

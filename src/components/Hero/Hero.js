@@ -9,9 +9,7 @@ const Hero = () => {
     <section>
       <Container>
         <div className={classes.welcome__text}>
-          <h2>
-            It's not just Real Estate. It's an <br /> Investment in your Future.
-          </h2>
+          <h2>It's not just Real Estate. It's an Investment in your Future.</h2>
           <p>The future is here. And we're excited to be part of it</p>
 
           <img
@@ -23,6 +21,16 @@ const Hero = () => {
 
         <div className={classes.video__container}>
           <img src={videoImg} alt="video" />
+        </div>
+
+        <div className={classes.about__message}>
+          <h3>Who we are</h3>
+          <p>
+            Luxury Homes is Africa's most respected and loved integrated
+            real-estate development company, consistently delivering luxury
+            housing and high-end lifestyle products to delight our customers and
+            support the prosperity of our communities
+          </p>
         </div>
       </Container>
     </section>
