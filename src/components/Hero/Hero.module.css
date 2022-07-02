@@ -53,10 +53,6 @@
 }
 
 @media (max-width: 994px) {
-  .video__container {
-    width: 90%;
-  }
-
   .welcome__text h2 {
     font-size: 2rem;
   }
