@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Blog from "./components/Blog/Blog";
+import Footer from "./components/Footer/Footer";
 import Navbar from "./components/Header/Navbar";
 import Hero from "./components/Hero/Hero";
 import Intro from "./components/Intro/Intro";
@@ -23,6 +24,7 @@ function App() {
       <Properties />
       <Intro />
       <Blog />
+      <Footer />
     </>
   );
 }
