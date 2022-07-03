@@ -52,6 +52,18 @@
   animation-duration: 3s;
 }
 
+@media (max-width: 866px) {
+  .estate {
+    justify-content: stretch;
+  }
+}
+
+@media (max-width: 375px) {
+  .estate {
+    justify-content: center;
+  }
+}
+
 .estate__item {
   position: relative;
   background: #fbfbfb;
@@ -71,7 +83,41 @@
   bottom: 78%;
   left: 60%;
 }
-@media (max-width: 450px) {
+
+@media (max-width: 866px) {
+  .estate__price {
+    bottom: 85%;
+    left: 75%;
+  }
+}
+@media (max-width: 695px) {
+  .estate__price {
+    bottom: 84%;
+    left: 73%;
+  }
+}
+
+@media (max-width: 632px) {
+  .estate__price {
+    bottom: 82%;
+    left: 70%;
+  }
+}
+
+@media (max-width: 561px) {
+  .estate__price {
+    left: 67%;
+  }
+}
+
+@media (max-width: 517px) {
+  .estate__price {
+    bottom: 80%;
+    left: 64%;
+  }
+}
+
+@media (max-width: 455px) {
   .estate__price {
     bottom: 77%;
     left: 58%;

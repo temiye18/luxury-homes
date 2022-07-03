@@ -1,7 +1,8 @@
 import React, { useState } from "react";
+import Blog from "./components/Blog/Blog";
 import Navbar from "./components/Header/Navbar";
 import Hero from "./components/Hero/Hero";
-import Introduction from "./components/Intro/Introduction";
+import Intro from "./components/Intro/Intro";
 import Properties from "./components/Properties/Properties";
 import Sidebar from "./components/Sidebar/Sidebar";
 function App() {
@@ -20,7 +21,8 @@ function App() {
       <Sidebar closeSideBar={closeSideBar} isBarOpen={isBarOpen} />
       <Hero />
       <Properties />
-      <Introduction />
+      <Intro />
+      <Blog />
     </>
   );
 }

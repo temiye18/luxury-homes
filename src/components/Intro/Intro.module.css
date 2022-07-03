@@ -11,6 +11,16 @@
   gap: 4rem;
 }
 
+@media (max-width: 736px) {
+  .intro__image {
+    width: 100%;
+  }
+
+  .intro__image img {
+    width: 100%;
+  }
+}
+
 .intro__item {
   align-self: center;
   justify-self: start;

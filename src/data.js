@@ -7,7 +7,6 @@ import panda_oyo3 from "./assets/panda_oyo3.png";
 import panda_ogun1 from "./assets/panda_ogun1.png";
 import panda_ogun2 from "./assets/panda_ogun2.png";
 import panda_ogun3 from "./assets/panda_ogun3.png";
-import blog1 from "./assets/blog_img_1.png";
 import blog2 from "./assets/blog_img_2.png";
 import blog3 from "./assets/blog_img_3.png";
 import blog4 from "./assets/blog_img_4.png";
@@ -119,15 +118,6 @@ export const estate = [
 
 export const blog = [
   {
-    id: "1",
-    image: blog1,
-    title: "Not too young to be a Landlord",
-    content:
-      "Who says Landlords must be old? Here are secrets to buying a house in your 20s/20s/40s",
-    date: "23 June 2021",
-  },
-
-  {
     id: "2",
     image: blog2,
     title:
@@ -151,6 +141,40 @@ export const blog = [
 
   {
     id: "5",
+    image: blog5,
+    title: "Reasons why you need to consider investing in real estate",
+    date: "23 June 2021",
+  },
+
+  {
+    id: "6",
+    image: blog5,
+    title: "Reasons why you need to consider investing in real estate",
+    date: "23 June 2021",
+  },
+
+  {
+    id: "7",
+    image: blog5,
+    title: "Reasons why you need to consider investing in real estate",
+    date: "23 June 2021",
+  },
+
+  {
+    id: "8",
+    image: blog5,
+    title: "Reasons why you need to consider investing in real estate",
+    date: "23 June 2021",
+  },
+  {
+    id: "9",
+    image: blog5,
+    title: "Reasons why you need to consider investing in real estate",
+    date: "23 June 2021",
+  },
+
+  {
+    id: "10",
     image: blog5,
     title: "Reasons why you need to consider investing in real estate",
     date: "23 June 2021",
