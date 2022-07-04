@@ -2,6 +2,19 @@
   background-color: #fbfbfb;
 }
 
+.myAnimate {
+  animation: fadeInRight 1.2s ease-in;
+}
+
+@keyframes fadeInRight {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
 .welcome__text {
   padding-top: 5rem;
   padding-bottom: 5rem;

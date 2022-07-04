@@ -43,13 +43,29 @@
   box-shadow: 0px 3px var(--regular-text-color);
 }
 
+.myAnimate {
+  animation: fadeInRight 1.7s ease-in;
+}
+
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+}
+
 .estate {
   display: grid;
   margin-top: 2rem;
   grid-template-columns: repeat(auto-fit, minmax(350px, auto));
   gap: 3rem;
   justify-content: center;
-  animation-duration: 3s;
+  animation-delay: 10s;
+  animation-duration: 10s;
 }
 
 @media (max-width: 866px) {

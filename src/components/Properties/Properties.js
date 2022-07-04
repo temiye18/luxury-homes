@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import { useInView } from "react-intersection-observer";
+
 import Container from "../UI/Container";
 import "animate.css";
 import classes from "./Properties.module.css";
@@ -8,11 +10,19 @@ import { estate } from "../../data";
 const Properties = () => {
   //   const [myEstate, setMyEstate] = useState(estate);
   const [value, setValue] = useState(2);
+  const { ref: myRef, inView: elementIsVisible } = useInView({
+    triggerOnce: true,
+  });
 
   const { estates } = estate[value];
 
   return (
-    <section className={classes.property}>
+    <section
+      ref={myRef}
+      className={`${classes.property}  ${
+        elementIsVisible ? classes.myAnimate : ""
+      }`}
+    >
       <Container>
         <div className={classes.property__items}>
           <div className={classes.property__heading}>
@@ -34,9 +44,7 @@ const Properties = () => {
             })}
           </div>
 
-          <div
-            className={`${classes.estate} animate__animated animate__slideInRight`}
-          >
+          <div ref={myRef} className={`${classes.estate}`}>
             {estates.map((estate, index) => {
               const { id, image, name, location, size, deposit, price } =
                 estate;

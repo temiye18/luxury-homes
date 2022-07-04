@@ -2,10 +2,35 @@
   padding: 10rem 0;
 }
 
+.right__animate {
+  animation: fadeInRight 1s ease-in;
+}
+
+@keyframes fadeInRight {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+.left__animate {
+  animation: fadeInLeft 1s ease-in;
+}
+
+@keyframes fadeInLeft {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
 .intro__container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, auto));
-
   justify-content: start;
   place-items: center;
   gap: 4rem;

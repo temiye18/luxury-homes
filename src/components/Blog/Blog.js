@@ -1,4 +1,5 @@
 import React from "react";
+import { useInView } from "react-intersection-observer";
 import classes from "./Blog.module.css";
 import { blog } from "../../data";
 import Container from "../UI/Container";
@@ -7,8 +8,14 @@ import blog1 from "../../assets/blog_img_1.png";
 import BlogList from "./BlogList";
 
 const Blog = () => {
+  const { ref: myRef, inView: elementIsVisible } = useInView({
+    triggerOnce: true,
+  });
   return (
-    <section className={classes.blog}>
+    <section
+      ref={myRef}
+      className={`${classes.blog} ${elementIsVisible ? classes.myAnimate : ""}`}
+    >
       <Container>
         <div className={classes.blog__container}>
           <div className={classes.blog__header}>
